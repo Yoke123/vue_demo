@@ -1,30 +1,22 @@
-# vue_demo
+# 环境搭建:
+- 安装Node.js环境
+    [Node.js中文网](http://nodejs.cn/)
+- 安装vue-cli 脚手架工具
+    - npm install -g vue-cli 直接安装
+    - 利用淘宝镜像 
+        npm install -g cnpm --registry=https://registry.npm.taobao.org
+        [淘宝NPM 镜像](http://npm.taobao.org/)
+- 安装完成之后
+    vue --version 查看版本
+    vue init webpack 项目名字
+    cd 项目名字
+    npm install
+    ------complete------
+    npm run dev
+    
+- 预览
 
-> A Vue.js project
+    ![vue](http://ww1.sinaimg.cn/large/006fuRQygy1ffqt1olnghj30yz0j6wfg.jpg)
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
